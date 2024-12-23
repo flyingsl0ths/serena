@@ -16,13 +16,14 @@ struct Vices: View {
                         topLeading: 10, topTrailing: 10)
                 )
                 .frame(height: 40)
-                .foregroundStyle(.red)
+                .foregroundStyle(.accent)
 
                 UnevenRoundedRectangle(
                     cornerRadii: .init(
                         bottomLeading: 10, bottomTrailing: 10))
             }.zIndex(0)
                 .frame(width: 120, height: 190)
+                .foregroundStyle(.red)
 
             VStack(spacing: 0) {
                 Text("Vices")

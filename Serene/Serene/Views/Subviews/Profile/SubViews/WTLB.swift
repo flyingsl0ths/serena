@@ -16,13 +16,14 @@ struct WTLB: View {
                         topLeading: 10, topTrailing: 10)
                 )
                 .frame(height: 40)
-                .foregroundStyle(.red)
+                .foregroundStyle(.accent)
 
                 UnevenRoundedRectangle(
                     cornerRadii: .init(
                         bottomLeading: 10, bottomTrailing: 10)
                 )
             }
+            .foregroundStyle(.red)
             .frame(height: 160)
 
             Text("Words to live by...")

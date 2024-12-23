@@ -15,13 +15,14 @@ struct Lexemes: View {
                     cornerRadii: .init(
                         topLeading: 10, topTrailing: 10)
                 )
-                .foregroundStyle(.red)
+                .foregroundStyle(.accent)
                 .frame(height: 45)
 
                 UnevenRoundedRectangle(
                     cornerRadii: .init(
                         bottomLeading: 10, bottomTrailing: 10))
             }.zIndex(0)
+                .foregroundStyle(.red)
                 .frame(height: 125)
                 .offset(y: 10)
 
